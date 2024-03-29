@@ -1,0 +1,14 @@
+{
+  "notification_album_start_soon_title": "⌛️ Votre album %{album} va ouvrir bientôt...",
+  "notification_album_start_soon_body": "Soyez prêt à prendre des photos durant l'événement !",
+  "notification_album_ongoing_title": "🎭 L'album %{album} est toujours ouvert...",
+  "notification_album_ongoing_body": "N'oubliez pas de prendre des photos !",
+  "notification_album_end_soon_title": "⌛️ Votre album %{album} va bientôt fermer...",
+  "notification_album_end_soon_body": "Il vous reste 2 heures pour ajouter vos photos à l'album avant sa fermeture !",
+  "notification_album_reviewed_title": "📔 L'album %{album} a été validé !",
+  "notification_album_reviewed_body": "Vous pouvez dès à présent consulter l'intégralité des photos prises durant l'événement.",
+  "notification_album_user_joined_title": "🙋 Nouveau membre",
+  "notification_album_user_joined_body": "%{name} a rejoint votre album %{album}.",
+  "notification_album_create_reminder_title": "✨ %{name}, un événement de prévu prochainement ?",
+  "notification_album_create_reminder_body": "N'oubliez pas de créer votre album et d'inviter vos participants !"
+}
