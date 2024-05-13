@@ -34,11 +34,8 @@ export class UsersController {
     return this.usersService.registerUser(registerUserDto);
   }
 
-  @Get('/admin/users')
-  @SerializeOptions({
-    groups: ['private'],
-  })
-  @RolesAllowed(Roles.ADMIN)
+  @Get('/users')
+  @RolesAllowed(Roles.USER)
   getAllUsers() {
     return this.usersService.getAllUsers();
   }

@@ -1,7 +1,8 @@
-import { Column, Entity } from 'typeorm';
+import { Column, Entity, OneToMany } from 'typeorm';
 import { Exclude, Expose, Transform } from 'class-transformer';
 import { BaseEntity } from './base.entity';
 import { AwsService } from '@/aws/aws.service';
+import { Player } from '@/entities/player.entity';
 
 export enum Roles {
   DELETED = 1 << 0,
@@ -83,4 +84,7 @@ export class User extends BaseEntity {
   @Column({ default: Roles.USER })
   @Expose()
   roles: number;
+
+  @OneToMany(() => Player, (player) => player.user)
+  games: Player[];
 }

@@ -26,7 +26,7 @@ export class UsersService {
   }
 
   async getAllUsers() {
-    return this.usersRepository.find({ order: { creationDate: 'DESC' } });
+    return this.usersRepository.find({ order: { firstName: 'ASC' } });
   }
 
   async updateUserDevice(

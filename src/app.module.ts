@@ -14,6 +14,8 @@ import { RateLimiterGuard } from '@/utils/rate-limiter.guard';
 import { MailModule } from '@/mail/mail.module';
 import { addTransactionalDataSource } from 'typeorm-transactional';
 import dataSource from '@/ormconfig';
+import { ClubsModule } from '@/clubs/clubs.module';
+import { TournamentsModule } from '@/tournaments/tournaments.module';
 
 @Module({
   imports: [
@@ -40,6 +42,8 @@ import dataSource from '@/ormconfig';
     MailModule,
     AwsModule,
     NotificationsModule,
+    ClubsModule,
+    TournamentsModule,
   ],
   providers: [
     AppService,
