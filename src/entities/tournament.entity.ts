@@ -12,6 +12,7 @@ import { Club } from '@/entities/club.entity';
 import { Field } from '@/entities/field.entity';
 import { User } from '@/entities/user.entity';
 import { Player } from '@/entities/player.entity';
+import { Round } from '@/entities/round.entity';
 
 @Entity()
 @Exclude()
@@ -54,6 +55,12 @@ export class Tournament extends BaseEntity {
   })
   @Expose()
   players: Player[];
+
+  @OneToMany(() => Round, (round) => round.tournament, {
+    cascade: true,
+  })
+  @Expose()
+  rounds: Round[];
 
   @ManyToOne(() => User)
   @Expose()

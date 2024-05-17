@@ -45,6 +45,8 @@ export class TournamentsService {
     tournament.type = createTournamentDto.tournamentType;
     tournament.author = user;
 
+    //TODO organize rounds & matchmaking
+
     return this.tournamentRepository.save(tournament);
   }
 }

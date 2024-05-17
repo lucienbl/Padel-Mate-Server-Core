@@ -1,14 +1,1 @@
-{
-  "notification_album_start_soon_title": "⌛️ Your album %{album} will be open soon...",
-  "notification_album_start_soon_body": "Be ready to take pictures during the event!",
-  "notification_album_ongoing_title": "🎭 Your album %{album} is still ongoing...",
-  "notification_album_ongoing_body": "Don't forget to take pictures on the event!",
-  "notification_album_end_soon_title": "⌛️ Your album %{album} will close soon...",
-  "notification_album_end_soon_body": "You have 2 hours left to add pictures to the album before it will be closed!",
-  "notification_album_reviewed_title": "📔 The album %{album} has been reviewed!",
-  "notification_album_reviewed_body": "You can now see all the pictures taken by everyone.",
-  "notification_album_user_joined_title": "🙋 New album member",
-  "notification_album_user_joined_body": "%{name} joined your album %{album}.",
-  "notification_album_create_reminder_title": "✨ %{name}, any event soon?",
-  "notification_album_create_reminder_body": "Don't forget to create your album and invite your participants!"
-}
+{}

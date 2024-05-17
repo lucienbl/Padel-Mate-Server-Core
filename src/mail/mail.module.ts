@@ -16,7 +16,7 @@ import { LocalizationModule } from '@/localization/localization.module';
         },
       },
       defaults: {
-        from: 'Snapshoot <noreply@snapshoot.app>',
+        from: 'Padel Mate <noreply@padelmate.app>',
       },
       /*template: {
         dir: __dirname + '/templates',

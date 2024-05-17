@@ -5,16 +5,6 @@ import { LocalizationService } from '@/localization/localization.service';
 
 @Injectable()
 export class NotificationsService {
-  // notification types here
-  public static NOTIFICATION_ALBUM_START_SOON = 'NOTIFICATION_ALBUM_START_SOON';
-  public static NOTIFICATION_ALBUM_ONGOING = 'NOTIFICATION_ALBUM_ONGOING';
-  public static NOTIFICATION_ALBUM_END_SOON = 'NOTIFICATION_ALBUM_END_SOON';
-  public static NOTIFICATION_ALBUM_REVIEWED = 'NOTIFICATION_ALBUM_REVIEWED';
-  public static NOTIFICATION_ALBUM_USER_JOINED =
-    'NOTIFICATION_ALBUM_USER_JOINED';
-  public static NOTIFICATION_ALBUM_CREATE_REMINDER =
-    'NOTIFICATION_ALBUM_CREATE_REMINDER';
-
   private readonly logger = new Logger(NotificationsService.name);
 
   constructor(private readonly localizationService: LocalizationService) {}
